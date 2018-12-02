@@ -1,4 +1,4 @@
-# location_optimisation
+# Location Optimisation 
 The objective of this research is to identify optimal locations for Sheng Siong, a growing supermarket chain in Singapore. 
 
 This work focuses on developing models, taking into consideration the various factors that influence the selection of an optimal store location.
