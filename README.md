@@ -10,12 +10,18 @@ For this study, we consider the problem of optimally locating more than one new 
 Four different models were developed to analyze the influence of various factors in identifying optimum locations. Preliminary analysis showed that Singapore was divided in to 322 sub-regions. It was however noticed that there were several regions that had no or minimal population. To achieve a solution that is both optimal and practical, it was decided to set a threshold for population density of 0.01 per sub-region. By applying this threshold, the number of sub-regions were reduced to 279. 
 
 To ensure that new store locations would
+
 •	Cover the entire population (Maximum Coverage)
+
 •	Minimize the distance of coverage of all the demand centers (p median problem)
+
 •	Be closer to the Demand centers (weighted-p median problem)
+
 •	Attract the population from the competitors’ stores (Gravity model)
 
+
 Maximum Coverage, p median, weighted p median are executed using Lingo
+
 Gravity Model is implemented using python
 
 In the set covering approach, the objective value function of 62 indicates that the number of stores locations is 62. This includes the existing stores (35) in addition to new stores (27). Opening 27 new stores would ensure that areas where the population density is greater than 0.01 would have a Sheng Siong store within 2 kms of coverage radius.
